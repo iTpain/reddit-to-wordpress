@@ -1,9 +1,10 @@
 # reddit-to-wordpress
-Automatically posts content from reddit into a wordpress blog. Uses RedditSharp and JoeBlogs APIs.
+Automatically posts content from reddit into a wordpress blog. 
+Uses RedditSharp and JoeBlogs APIs.
 
 To use:
 ----------------------------------
-1. Enter credentials and urls:
+1.Enter credentials and urls:
 
 Enter a username and password for a reddit account and also the username and password of the blog you want to post on. Enter the subreddit you want to take posts from and the URL of your wordpress blog. It should be the URL of the directory that contains the xmlrpc.php, not the file itself.
 
