@@ -68,6 +68,7 @@
             this.menu_load = new System.Windows.Forms.ToolStripMenuItem();
             this.btn_edit_ignore_domains = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_quit = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label15 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label19 = new System.Windows.Forms.Label();
@@ -87,7 +88,6 @@
             this.check_timer = new System.Windows.Forms.Timer(this.components);
             this.gb1 = new System.Windows.Forms.GroupBox();
             this.label22 = new System.Windows.Forms.Label();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.gb2.SuspendLayout();
             this.gb3.SuspendLayout();
@@ -464,6 +464,13 @@
             this.menu_quit.Text = "Quit";
             this.menu_quit.Click += new System.EventHandler(this.menu_quit_Click);
             // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Text = "Help";
+            this.helpToolStripMenuItem.Click += new System.EventHandler(this.helpToolStripMenuItem_Click);
+            // 
             // label15
             // 
             this.label15.AutoSize = true;
@@ -559,7 +566,7 @@
             this.lbl_current_post_number.Name = "lbl_current_post_number";
             this.lbl_current_post_number.Size = new System.Drawing.Size(13, 13);
             this.lbl_current_post_number.TabIndex = 34;
-            this.lbl_current_post_number.Text = "a";
+            this.lbl_current_post_number.Text = "0";
             // 
             // label18
             // 
@@ -612,7 +619,7 @@
             this.log.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.log.Size = new System.Drawing.Size(419, 179);
             this.log.TabIndex = 31;
-            this.log.Text = "---R2WP v1.1---";
+            this.log.Text = "---R2WP v1.3---";
             // 
             // post_timer
             // 
@@ -663,14 +670,7 @@
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(69, 40);
             this.label22.TabIndex = 32;
-            this.label22.Text = "v1.2";
-            // 
-            // helpToolStripMenuItem
-            // 
-            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem.Text = "Help";
-            this.helpToolStripMenuItem.Click += new System.EventHandler(this.helpToolStripMenuItem_Click);
+            this.label22.Text = "v1.3";
             // 
             // pictureBox1
             // 
