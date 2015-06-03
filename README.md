@@ -2,6 +2,8 @@
 Automatically posts content from reddit into a wordpress blog. 
 Uses RedditSharp and JoeBlogs APIs.
 
+![Alt text](R2WPSCREENSHOT.png?raw=true "Screenshot")
+
 To use:
 ----------------------------------
 1.Enter credentials and urls:
