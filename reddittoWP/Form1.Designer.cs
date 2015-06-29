@@ -217,7 +217,6 @@
             this.tb_wordpress_url.Size = new System.Drawing.Size(306, 20);
             this.tb_wordpress_url.TabIndex = 16;
             this.tb_wordpress_url.Text = " http://example/wp";
-            this.tb_wordpress_url.TextChanged += new System.EventHandler(this.tb_wordpress_url_TextChanged);
             // 
             // tb_number_of_posts
             // 
@@ -285,7 +284,6 @@
             this.rb_check_new_posts.TabStop = true;
             this.rb_check_new_posts.Text = "Check/Post New Posts";
             this.rb_check_new_posts.UseVisualStyleBackColor = true;
-            this.rb_check_new_posts.CheckedChanged += new System.EventHandler(this.rb_check_new_posts_CheckedChanged);
             // 
             // tb_wordpress_format_title
             // 
@@ -499,7 +497,6 @@
             this.groupBox3.Size = new System.Drawing.Size(435, 298);
             this.groupBox3.TabIndex = 22;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
             // label19
             // 
@@ -518,7 +515,6 @@
             this.tb_buffer_size.Size = new System.Drawing.Size(50, 20);
             this.tb_buffer_size.TabIndex = 38;
             this.tb_buffer_size.Text = "5";
-            this.tb_buffer_size.TextChanged += new System.EventHandler(this.tb_buffer_size_TextChanged);
             // 
             // btn_stop_task
             // 

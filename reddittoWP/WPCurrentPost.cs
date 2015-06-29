@@ -11,7 +11,5 @@ namespace reddittoWP
         public JoeBlogs.WordPressWrapper wp;
         public string title;
         public string body;
-
-      
     }
 }
